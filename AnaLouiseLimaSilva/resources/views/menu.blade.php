@@ -3,16 +3,21 @@
 
         <div class="navbar-nav">
 
-            <a class="nav-link" href="{{ route('alunos.index') }}">
-                Alunos
-            </a>
+        
 
-            <a class="nav-link" href="{{ route('produtos.index') }}">
+            <a class="nav-link"
+               href="{{ route('produtos.index', [], false) }}">
                 Produtos
             </a>
 
-            <a class="nav-link" href="{{ route('filmes.index') }}">
+            <a class="nav-link"
+               href="{{ route('filmes.index', [], false) }}">
                 Filmes
+            </a>
+
+            <a class="nav-link"
+               href="{{ route('jogos.index', [], false) }}">
+                Jogos
             </a>
 
         </div>

@@ -55,7 +55,7 @@
 
                 <td>
 
-                    <a href="{{ route('produto.detalhes', $produto['id']) }}"
+                    <a href="{{ route('produto.detalhes', $produto['id'], false) }}"
                        class="btn btn-primary btn-sm">
 
                         Detalhes

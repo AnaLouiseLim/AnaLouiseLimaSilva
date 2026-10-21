@@ -27,7 +27,7 @@
             {{ $filme['classificacao'] }}
         </p>
 
-        <a href="{{ route('filmes.index') }}"
+        <a href="{{ route('filmes.index', [], false) }}"
            class="btn btn-secondary">
 
             Voltar

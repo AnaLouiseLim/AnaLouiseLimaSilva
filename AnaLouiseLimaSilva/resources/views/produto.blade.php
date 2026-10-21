@@ -46,7 +46,7 @@
 
         </p>
 
-        <a href="{{ route('produtos.index') }}"
+        <a href="{{ route('produtos.index', [], false) }}"
            class="btn btn-secondary">
 
             Voltar

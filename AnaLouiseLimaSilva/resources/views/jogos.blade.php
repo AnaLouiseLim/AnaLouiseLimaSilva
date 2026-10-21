@@ -55,7 +55,7 @@
 
                 <td>
 
-                    <a href="{{ route('jogo.detalhes', $jogo['id']) }}"
+                    <a href="{{ route('jogo.detalhes', $jogo['id'], false) }}"
                        class="btn btn-primary btn-sm">
 
                         Detalhes

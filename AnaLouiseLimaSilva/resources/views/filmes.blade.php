@@ -64,7 +64,7 @@
 
                 <td>
 
-                    <a href="{{ route('filme.detalhes', $filme['id']) }}"
+                    <a href="{{ route('filme.detalhes', $filme['id'], false) }}"
                        class="btn btn-primary btn-sm">
 
                         Ver filme

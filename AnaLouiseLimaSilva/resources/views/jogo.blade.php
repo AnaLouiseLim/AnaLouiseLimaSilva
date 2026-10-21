@@ -44,7 +44,7 @@
             {{ $jogo['idade_minima'] }} anos
         </p>
 
-        <a href="{{ route('jogos.index') }}"
+        <a href="{{ route('jogos.index', [], false) }}"
            class="btn btn-secondary">
 
             Voltar
